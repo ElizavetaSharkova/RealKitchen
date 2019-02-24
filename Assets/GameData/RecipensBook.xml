@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recipeBook>
+  <RECIPE NUMBER ="0">
+    <TITLE>Вареное яйцо</TITLE>
+    <PRODUCTSLIST>
+      <PRODUCT NECESSARY="TRUE" COUNT="1" UNITS="шт.">Яйцо</PRODUCT>
+    </PRODUCTSLIST>
+    <CROCKERY>Ковшик</CROCKERY>
+    <ACTIONS>
+      <STEP NECESSARY="FALSE">Помыть яйцо</STEP>
+      <STEP NECESSARY="TRUE">Положить яйцо в ковшик</STEP>
+      <STEP NECESSARY="TRUE">Налить 0.5-0.75 холодной воды</STEP>
+      <STEP NECESSARY="TRUE">Поставить на плиту</STEP>
+      <STEP NECESSARY="TRUE">Включить плиту</STEP>
+      <STEP NECESSARY="TRUE">Довести до кипения</STEP>
+      <STEP NECESSARY="TRUE" TIME="3" NAME="Всмятку">в кипящей воде варить 3 минут</STEP>
+      <STEP NECESSARY="FALSE" TIME="6" NAME="В мешочек">в кипящей воде варить 6 минут</STEP>
+      <STEP NECESSARY="FALSE" TIME="9" NAME="Вкрутую">в кипящей воде варить 9 минут</STEP>
+      <STEP NECESSARY="TRUE">Выключить плиту</STEP>
+      <STEP NECESSARY="TRUE">Подержать под холодной водой</STEP>
+      <STEP NECESSARY="TRUE">Слить воду</STEP>
+      <STEP NECESSARY="TRUE">Очистить яйцо</STEP>
+    </ACTIONS>
+    <MIN_POINT>100</MIN_POINT>
+  </RECIPE>
+  
+  <RECIPE NUMBER ="1">
+    <TITLE>Овсяная каша</TITLE>
+    <PRODUCTSLIST>
+      <PRODUCT NECESSARY="TRUE" COUNT="1" UNITS=" стакан">Вода</PRODUCT>
+      <PRODUCT NECESSARY="TRUE" COUNT="1" UNITS=" стакан">Молоко</PRODUCT>
+      <PRODUCT NECESSARY="TRUE" COUNT="0.6" UNITS=" стакана">Овсяные хлопья (среднего размера)</PRODUCT>
+      <PRODUCT NECESSARY="FALSE" COUNT="1" UNITS=" чайная ложка">Сахар</PRODUCT>
+      <PRODUCT NECESSARY="TRUE" COUNT="1" UNITS=" щепотка">Соль</PRODUCT>
+      <PRODUCT NECESSARY="FALSE" COUNT="20" UNITS="гр.">Сливочное масто</PRODUCT>
+    </PRODUCTSLIST>
+    <CROCKERY>Ковшик</CROCKERY>
+    <ACTIONS>     
+      <STEP NECESSARY="TRUE">Налить стакан воды в ковшик</STEP>
+      <STEP NECESSARY="TRUE">Поставить на плиту</STEP>
+      <STEP NECESSARY="TRUE">Включить плиту</STEP>
+      <STEP NECESSARY="TRUE">Довести до кипения</STEP>
+      <STEP NECESSARY="FALSE">Добавить сахар</STEP>
+      <STEP NECESSARY="TRUE">Посолить</STEP>
+      <STEP NECESSARY="TRUE">Налить стакан молока в ковшик</STEP>
+      <STEP NECESSARY="TRUE">Добавить овсяные хлопья</STEP>
+      <STEP NECESSARY="TRUE">Постоянно помешивать</STEP>     
+      <STEP NECESSARY="TRUE" TIME="5">Варить 5 минут</STEP>
+      <STEP NECESSARY="TRUE">Выключить плиту</STEP>       
+      <STEP NECESSARY="FALSE">Добавить масло</STEP>
+      <STEP NECESSARY="TRUE">Накрыть крышкой</STEP>
+      <STEP NECESSARY="TRUE">Дать постоять 3 минуты</STEP>
+    </ACTIONS>
+    <MIN_POINT>200</MIN_POINT>
+  </RECIPE>
+
+  <RECIPE NUMBER ="2">
+    <TITLE>Макароны с сыром</TITLE>
+    <PRODUCTSLIST>
+      <PRODUCT NECESSARY="TRUE" COUNT="200" UNITS="гр.">Спагетти</PRODUCT>
+      <PRODUCT NECESSARY="TRUE" COUNT="100" UNITS="гр.">Сыр</PRODUCT>
+      <PRODUCT NECESSARY="TRUE" COUNT="20" UNITS="гр.">Сливочное масло</PRODUCT>
+    </PRODUCTSLIST>
+    <CROCKERY>Кастрюля 3.5 литра</CROCKERY>
+    <ACTIONS>
+      <STEP NECESSARY="TRUE">Натереть сыр на мелкой терке</STEP>
+      <STEP NECESSARY="TRUE">Налить 0.5-0.7 холодной воды в кастрюлю</STEP>
+      <STEP NECESSARY="TRUE">Поставить на плиту</STEP>
+      <STEP NECESSARY="TRUE">Включить плиту</STEP>
+      <STEP NECESSARY="TRUE">Довести до кипения</STEP>
+      <STEP NECESSARY="TRUE">Положить спагетти</STEP>
+      <STEP NECESSARY="TRUE" TIME="8">в кипящей воде варить 8 минут</STEP>
+      <STEP NECESSARY="TRUE">Выключить плиту</STEP>
+      <STEP NECESSARY="TRUE">Слить воду</STEP>
+      <STEP NECESSARY="TRUE">Добавить масло</STEP>
+      <STEP NECESSARY="TRUE">Помешать</STEP>
+      <STEP NECESSARY="TRUE">Добавить сыр</STEP>
+    </ACTIONS>
+    <MIN_POINT>160</MIN_POINT>
+  </RECIPE>
+
+  
+</recipeBook>
